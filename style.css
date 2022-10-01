@@ -111,21 +111,30 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 40px 100px;
 }
 .card-container{
     display: flex;
     justify-content: center;
+    align-items:baseline;
     flex-wrap: wrap;
 }
 .card{
     /* width: 900px; */
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+    margin: 20px;
     
 }
 .card-item{
     border: 2px solid #3882F6;
-    width: 200px;
+    width: 150px;
     height: 200px;
+    border-radius: 10px;
+}
+.card-text{
+    text-align: center;
+    width: 150px;
+    flex-wrap: wrap;
 }
