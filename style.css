@@ -13,7 +13,6 @@ a,ul{
     color: white;
     width: 100vw;
     height: auto;
-    padding: 0 0 100px 0;
 }
 .light-bg{
     background-color: #FFF;
@@ -40,6 +39,9 @@ a,ul{
     flex-wrap: wrap;
 }
 /* Section 1-Header section*/
+.header-section{
+    padding: 0 0 100px 0;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -173,8 +175,8 @@ quote text font-36px light italic #1F2937
     align-items: center;
     background-color: #3882F6;
     color: white;
-    margin: 5% 10%;
-    padding: 2% 5%;
+    margin: 5% 15%;
+    padding: 2% 0%;
     border-radius: 10px;
 }
 .signup-btn{
@@ -194,4 +196,11 @@ quote text font-36px light italic #1F2937
 .call-to-action p{
     margin-top: 0;
     font-size: 100;
+}
+/* Section 5-Footer Section */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
 }
