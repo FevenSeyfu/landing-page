@@ -39,7 +39,7 @@ a,ul{
     color: #e5E7EB;
     flex-wrap: wrap;
 }
-/* header section(First) */
+/* Section 1-Header section*/
 .header{
     display: flex;
     justify-content: space-between;
@@ -59,7 +59,7 @@ a,ul{
 
 .nav-item {
   /* border: 1px solid #fff; */
-  margin-left: 20px;
+  padding-left: 20px;
 }
 /* under header section hero subsection */
 .hero{
@@ -91,10 +91,12 @@ a,ul{
 .hero-btn{
     background-color: #3882F6;
     color: #e5E7EB;
+    border: 1px  #FFF;
+    font-weight: bold;
     width: 100px;
-    padding: 2px;
+    padding: 5px;
     margin-top: 5px;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 .hero-img-container{
     display: flex;
@@ -107,7 +109,7 @@ img{
     padding: 2px;
 
 }
-/* second section-info section */
+/* Section 2-info section */
 
 .info-section {
     display: flex;
@@ -141,13 +143,13 @@ img{
     width: 150px;
     flex-wrap: wrap;
 }
-/* quote section
+/* Section 3-Quote section
 bg-color-#E7E7EB
 quote text font-36px light italic #1F2937
 */
 /* p{display: block;} */
 .quote-section{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
@@ -163,4 +165,33 @@ quote text font-36px light italic #1F2937
     font-weight: bold;
     font-style: normal;
     margin: 0;
+}
+/* Section 4- call to action */
+.call-to-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    margin: 5% 10%;
+    padding: 2% 5%;
+    border-radius: 10px;
+}
+.signup-btn{
+    color: white;
+    background-color: #3882F6;
+    border: 1px solid #FFF;
+    font-weight: bold;
+    width: 100px;
+    padding: 5%;
+    margin: 0 50%;
+    border-radius: 5px;
+}
+.call-to-action h3{
+    /* border: 1px solid red; */
+    margin-bottom: 0;
+}
+.call-to-action p{
+    margin-top: 0;
+    font-size: 100;
 }
